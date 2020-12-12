@@ -30,9 +30,9 @@ function Cards() {
               path="/services"
             />
             <CardItem
-              src="https://images.pexels.com/photos/119435/pexels-photo-119435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              src="https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?cs=srgb&dl=pexels-adrian-dorobantu-2127733.jpg&fm=jpg"
               text="Wander the Trails with its build to last quality"
-              label="Jeep"
+              label="Lamborghini"
               path="/products"
             />
             <CardItem
