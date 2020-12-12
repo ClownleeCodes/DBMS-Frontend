@@ -97,9 +97,9 @@
   text-align: center;
 }
 
-/* CART TOTAL AND REMOVE  FA*/
+/* CART TOTAL AND REMOVE-fa */
 
-/* .fa {
+.fa {
   margin-right: 5px;
 }
 
@@ -134,7 +134,7 @@
 
 .cart-total a:hover {
   background-color: red;
-} */
+}
 
 /* Media Queries */
 
