@@ -11,6 +11,12 @@
 body {
   background-color: #f3f3f3;
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
 
 .wrapper {
   position: absolute;
@@ -26,8 +32,10 @@ body {
 }
 
 .wrapper .left {
-  width: 55%;
-  background: linear-gradient(to right, #01a9ac, #01dbdf);
+  width: 65%;
+  /* background: linear-gradient(to right, #01a9ac, #01dbdf); */
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background: #252e48;
   padding: 30px 25px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -39,7 +47,12 @@ body {
   border-radius: 5px;
   width: 100%;
   margin-top: 90px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  transition: all 0.2s linear;
+}
+
+.wrapper .left img:hover {
+  transform: scale(1.1);
 }
 
 .wrapper .left h4 {
